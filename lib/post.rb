@@ -30,8 +30,8 @@ class Post
     end
     
   def author_name
-    self = Author.new(name)
-    post.author  = self
+    name = Author.new(name)
+    post.author  = name
   end
 
   end
