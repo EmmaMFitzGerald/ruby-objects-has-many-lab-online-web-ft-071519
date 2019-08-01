@@ -24,7 +24,7 @@ class Post
   end
     
   def author_name
-    name = Author.new(name)
+    binding.pry
   end
   
 end
