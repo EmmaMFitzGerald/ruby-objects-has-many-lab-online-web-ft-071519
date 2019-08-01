@@ -21,7 +21,7 @@ class Post
     @author = author 
     #tell the artist to add this song to its list of songs
     author.posts << self
-   
+  end
     
   def author_name
     name = Author.new(name)
